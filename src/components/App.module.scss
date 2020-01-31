@@ -1,0 +1,16 @@
+$bg-color: yellow;
+$border-color: pink;
+
+.app {
+  font-family: helvetica, arial, sans-serif;
+  padding: 3em;
+  border: 5px solid $border-color;
+
+  p {
+    background-color: $bg-color;
+  }
+}
+
+.yolo-what {
+  text-align: center;
+}

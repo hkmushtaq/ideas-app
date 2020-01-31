@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "target": "esnext",
+        "jsx": "react",
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "include": [
+        "./configs/webpack/*",
+        "./src/**/*",
+        "./env.d.ts"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "reportFiles": [
+            "./src/**/*"
+        ]
+    }
+}
